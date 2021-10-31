@@ -1,0 +1,29 @@
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\bin\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.exe.config
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\bin\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.exe
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\bin\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.pdb
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.LoginForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.Properties.Resources.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.exe
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\[WINFORM]QUẢN LÝ THƯ VIỆN.pdb
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.MainForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.StudentMainForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.RegisterForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.AddStudentForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.AddTeacherForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.DocgiaForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.LibrarianMainForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.TacgiaForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.NXBForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.SachForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.NhanvienForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.RegisterFormNV.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.MuonForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.TrasachForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.TeacherMainForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.ChomuonForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.BookStackerForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.ThongKeForm.resources
+C:\Users\USER\source\repos\[WINFORM]QUẢN LÝ THƯ VIỆN\[WINFORM]QUẢN LÝ THƯ VIỆN\obj\Debug\_WINFORM_QUẢN_LÝ_THƯ_VIỆN.SachmuonnhieuForm.resources

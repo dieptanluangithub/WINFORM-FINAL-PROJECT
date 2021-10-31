@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0DF68E44-2B1A-4A12-A56F-A0EAB1EE7EFB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_WINFORM_QUẢN_LÝ_THƯ_VIỆN</RootNamespace>
+    <AssemblyName>[WINFORM]QUẢN LÝ THƯ VIỆN</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>Microsoft.Office.Interop.Word.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddStudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudentForm.Designer.cs">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddTeacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTeacherForm.Designer.cs">
+      <DependentUpon>AddTeacherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookStackerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookStackerForm.Designer.cs">
+      <DependentUpon>BookStackerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CHOMUON.cs" />
+    <Compile Include="ChomuonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChomuonForm.Designer.cs">
+      <DependentUpon>ChomuonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DocgiaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocgiaForm.Designer.cs">
+      <DependentUpon>DocgiaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DONVI.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibrarianMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibrarianMainForm.Designer.cs">
+      <DependentUpon>LibrarianMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MUON.cs" />
+    <Compile Include="MuonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MuonForm.Designer.cs">
+      <DependentUpon>MuonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NHANVIEN.cs" />
+    <Compile Include="NhanvienForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanvienForm.Designer.cs">
+      <DependentUpon>NhanvienForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NXB.cs" />
+    <Compile Include="NXBForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NXBForm.Designer.cs">
+      <DependentUpon>NXBForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLTVDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTVDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTVDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTVDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTVDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTVDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTVDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTVDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLTVDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTVDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MY_DB.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterFormNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterFormNV.Designer.cs">
+      <DependentUpon>RegisterFormNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SACH.cs" />
+    <Compile Include="SachForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SachForm.Designer.cs">
+      <DependentUpon>SachForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SachmuonnhieuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SachmuonnhieuForm.Designer.cs">
+      <DependentUpon>SachmuonnhieuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STUDENT.cs" />
+    <Compile Include="StudentMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentMainForm.Designer.cs">
+      <DependentUpon>StudentMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TACGIA.cs" />
+    <Compile Include="TacgiaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TacgiaForm.Designer.cs">
+      <DependentUpon>TacgiaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TEACHER.cs" />
+    <Compile Include="TeacherMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherMainForm.Designer.cs">
+      <DependentUpon>TeacherMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongKeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThongKeForm.Designer.cs">
+      <DependentUpon>ThongKeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USER.cs" />
+    <EmbeddedResource Include="AddStudentForm.resx">
+      <DependentUpon>AddStudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTeacherForm.resx">
+      <DependentUpon>AddTeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookStackerForm.resx">
+      <DependentUpon>BookStackerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChomuonForm.resx">
+      <DependentUpon>ChomuonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocgiaForm.resx">
+      <DependentUpon>DocgiaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibrarianMainForm.resx">
+      <DependentUpon>LibrarianMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuonForm.resx">
+      <DependentUpon>MuonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanvienForm.resx">
+      <DependentUpon>NhanvienForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NXBForm.resx">
+      <DependentUpon>NXBForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegisterFormNV.resx">
+      <DependentUpon>RegisterFormNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SachForm.resx">
+      <DependentUpon>SachForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SachmuonnhieuForm.resx">
+      <DependentUpon>SachmuonnhieuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentMainForm.resx">
+      <DependentUpon>StudentMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TacgiaForm.resx">
+      <DependentUpon>TacgiaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherMainForm.resx">
+      <DependentUpon>TeacherMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongKeForm.resx">
+      <DependentUpon>ThongKeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="QLTVDataSet.xsc">
+      <DependentUpon>QLTVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTVDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTVDataSet.xss">
+      <DependentUpon>QLTVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet1.xsc">
+      <DependentUpon>QLTVDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTVDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTVDataSet1.xss">
+      <DependentUpon>QLTVDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet2.xsc">
+      <DependentUpon>QLTVDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTVDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTVDataSet2.xss">
+      <DependentUpon>QLTVDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet3.xsc">
+      <DependentUpon>QLTVDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTVDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTVDataSet3.xss">
+      <DependentUpon>QLTVDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet4.xsc">
+      <DependentUpon>QLTVDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="QLTVDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLTVDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLTVDataSet4.xss">
+      <DependentUpon>QLTVDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\thoi_quen_doc_sach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alfons-morales-YLSwjSy7stw-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar-icon-human-icon-person-icon-png-favpng-CAZVS9eT4vdnRkS1dZFusMNwp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library-zoom-background-design-template-18c11f933ef10cc76543f2b560183b53_screen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur-book-stack-books-590493.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SPKT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard 1%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\65000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\library-zoom-background-design-template-18c11f933ef10cc76543f2b560183b53_screen1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGIN%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_eye_30px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_c_2_50px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unlock_c_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_invisible_30px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_eye_30px_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_eye_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_invisible_30px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_208px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REGISTER%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_2_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_c_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-gradient-background-image-backgroundovalsimplesimplecreativebackground-image-image_61414.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADD%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADD TC%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alfons-morales-YLSwjSy7stw-unsplash1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hand-painted-watercolor-background-with-sky-clouds-shape.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\counterclockwise_arrows_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1235%404x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\male_user_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_128px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_96px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_200px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

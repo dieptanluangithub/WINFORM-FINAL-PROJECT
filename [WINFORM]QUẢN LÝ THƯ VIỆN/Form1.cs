@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace _WINFORM_QUẢN_LÝ_THƯ_VIỆN
+{
+    public partial class TrasachForm : Form
+    {
+        public TrasachForm()
+        {
+            InitializeComponent();
+        }
+        MUON muon = new MUON();
+        MuonForm m = new MuonForm();
+        private void TrasachForm_Load(object sender, EventArgs e)
+        {
+            Label_thoihan.Text = ("Còn lại"+ m.tinhngaytra());
+            
+        }
+    }
+}
